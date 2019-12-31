@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 .controls .controls__btns {
   margin-bottom: 30px;
@@ -38,4 +39,20 @@
 
 .controls .controls__range {
   margin-bottom: 25px;
+}
+
+/* 현재 선택된 색상  */
+.choice__colors {
+  display: flex;
+  align-items: center;
+}
+.choice__colors span {
+  margin-right: 10px;
+}
+
+.choice__color {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
