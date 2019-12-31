@@ -8,14 +8,14 @@ const jssave = document.getElementById('jsSave')
 //FILL 눌렀을 시 해당되는 컬러를 적용하기 위한 변수
 let getColor = null
 
-//canvas 배경색을 처음에 초기화시켜주지 않아서 아무 색상없이 이미지 저장시 바탕화면이 투명하게 저장됨 이것을 초기화로 해결
-ctx.style = 'white'
-ctx.fillRect(0, 0, 700, 600)
-ctx.strokeStyle = '#2c2c2c'
-ctx.lineWidth = 2.5
-
 canvas.width = 700
 canvas.height = 600
+
+//canvas 배경색을 처음에 초기화시켜주지 않아서 아무 색상없이 이미지 저장시 바탕화면이 투명하게 저장됨 이것을 초기화로 해결
+ctx.fillStyle = 'white'
+ctx.fillRect(0, 0, 700, 600)
+ctx.lineWidth = 2.5
+
 let painting = false
 function onMouseMove(event) {
   const x = event.offsetX
