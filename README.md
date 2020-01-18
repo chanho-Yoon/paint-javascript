@@ -3,4 +3,4 @@
 
 <hr/>
 
-[그림판 바로가기](https://github.com/chanho-Yoon/paint-javascript/edit/master/README.md)
+[그림판 바로가기](https://chanho-yoon.github.io/paint-javascript)
